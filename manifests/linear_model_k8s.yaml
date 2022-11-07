@@ -15,7 +15,7 @@ spec:
       containers:
       - name: resnet-container
         image: gcr.io/tensorflow-serving/resnet 
-        #image: docker.io/adsoft/tensorflow_resnet
+        #image: docker.io/oswaaaldo6/tensorflow_linear_model
         ports:
         - containerPort: 8501
 ---
